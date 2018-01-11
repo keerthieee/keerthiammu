@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(void) {
+	int i,j,a,b,sum=0;
+	scanf("%d%d",&a,&b);
+	for(i=a;i<b;i++)
+	{
+	for(j=1;j<b;j++)
+		{
+			if(i%j==0)
+			{
+			sum++;
+			}
+	
+		if(sum==2)
+{
+	printf("%d",i);
+}
+else
+{
+
+}
+	}
+	}
+	return 0;
+}
+
